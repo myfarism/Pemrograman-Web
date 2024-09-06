@@ -1,0 +1,30 @@
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar li {
+    display: flex;
+}
+
+.navbar a {
+    justify-content: center;
+    display: flex;
+    margin-right: 15px;
+    color: black;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+

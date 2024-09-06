@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di Web Saya</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="dashboard.html">Home</a>
+            </li>
+            <li>
+                <a href="kontak.html">Kontak</a>
+            </li>
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Formulir Kontak:</h1>
+    </header>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br>
+        <label for="negara">Kewarganegaraan:</label><br>
+        <input type="radio" id="wni" name="negara" value="WNI">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="asing" name="negara" value="Asing">
+        <label for="css">CSS</label><br>
+        <label for="layanan">Layanan:</label><br>
+        <input type="checkbox" id="website" name="website" value="Website">
+        <label for="website">Website</label><br>
+        <input type="checkbox" id="hosting" name="hosting" value="Hosting">
+        <label for="hosting"> Hosting</label><br>
+        <input type="submit" name="tombolSumbit">
+        <input type="reset" name="tombolReset">
+    </form>
+</body>
+</html>
