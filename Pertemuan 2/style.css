@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: -1px;
+}
+
+header {
+    background-color: rgb(98, 107, 107);
+}
+.navbar {
+    background-color: rgb(98, 107, 107);
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar li {
+    display: flex;
+}
+
+.navbar a {
+    justify-content: center;
+    display: flex;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-size:25px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #20202000;
+    color: black;
+}
+
+.berita {
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.berita h1 {
+    margin-bottom: 20px; 
+}
+
+.content {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 50px;
+}
+
+
+
+.content img {
+    margin-right: 10px; 
+}
+
+
+.isi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h2 {
+    text-align: center;
+    margin-top: 10;
+    margin-bottom: 20px;
+}
+
+.text p {
+    max-width: 800px;
+    text-indent: 20px;
+}
+
+
+
+
+
+
